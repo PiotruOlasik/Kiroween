@@ -1,0 +1,31 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>Tytuł</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=IM+Fell+English:ital@0;1&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="styles.css">
+<script src="https://cdnjs.cloudflare.com/ajax/libs/d3/7.8.5/d3.min.js"></script>
+</head>
+<body>
+<header>
+    <h1>Tytuł</h1>
+    <p>Traditions in different countries.</p>
+</header>
+<main>
+    <svg id="globe" viewBox="0 0 600 600" role="img" aria-label="Interactive map with candles marking countries">
+        <defs><radialGradient id="sea" cx="40%" cy="35%" r="75%"><stop offset="0" stop-color="#2a1f45"/><stop offset="1" stop-color="#0b0712"/></radialGradient></defs>
+        <path class="sph"/><path class="grat"/><g id="land"></g><g id="mks"></g>
+    </svg>
+    <aside aria-live="polite">
+        <div id="info"><p class="hint">Drag the globe to spin it. Click a candle or pick a country from the list.</p></div>
+        <div class="chips" id="chips"></div>
+    </aside>
+    <p class="note">Desrpitions rae shot summaries and should be checked with sources.</p>
+</main>    
+<script src="app.js"></script>
+</body>
+</html>

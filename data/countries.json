@@ -1,0 +1,29 @@
+[
+    {
+        "id": "MEX",
+        "name": "Mexico",
+        "lon": -102.5,
+        "lat": 23.6,
+        "when": "November 1-2",
+        "festival": "Dia de Muertos",
+        "text": "Families build altars with photos of the dead, orange marigolds, candles and dishes their loved one enjoyed."
+    },
+    {
+        "id": "POL",
+        "name": "Poland",
+        "lon": 19.1,
+        "lat": 52,
+        "when": "November 1",
+        "festival": "All Saints Day",
+        "text": "People tidy graves and light candles. After dark, cementeries glow with thousands of flames."
+    },
+    {            
+        "id": "USA",
+        "name": "United States",
+        "lon": -98.6,
+        "lat": 39.8,
+        "when": "October 31",
+        "festival": "Halloween",
+        "text": "Costumes, carved pumpkins and going door to door for candy"
+    }
+]
